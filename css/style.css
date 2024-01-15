@@ -21,6 +21,7 @@ body {
   align-items: center;
   flex-direction: column;
   gap: 20px;
+  /* the display flex down to tje gap moves the container to the middle of the page while the gap Separate the main from the footer */
 }
 
 img, .date, .title{
@@ -30,7 +31,7 @@ img, .date, .title{
 .container{
  background-color: var(--secondary-color);
  padding: 22px;
- margin: auto;
+ margin: auto; /* moves the footer to the footer of the page*/
  width: 350px;
  height: 500px;
  border-radius: 20px;
@@ -40,8 +41,8 @@ img, .date, .title{
 }
 
 img{
-  display: block;
-  max-width: 100%;
+  display: block;/* display block removed the excess white space beneath the image*/
+  max-width: 100%; /* max-width occupies the correct width within the container */
   border-radius: 8px;
   cursor: pointer;
 }
