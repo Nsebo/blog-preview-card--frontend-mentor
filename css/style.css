@@ -21,7 +21,7 @@ body {
   align-items: center;
   flex-direction: column;
   gap: 20px;
-  /* the display flex down to tje gap moves the container to the middle of the page while the gap Separate the main from the footer */
+  /* the display flex property moves the container to the middle of the page while the gap separate the main from the footer */
 }
 
 img, .date, .title{
