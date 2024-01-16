@@ -37,14 +37,12 @@ img, .date, .title{
  border-radius: 20px;
  border: 2px solid black;
  box-shadow: 8px 7px 0 black; 
- cursor: pointer;
 }
 
 img{
   display: block;/* display block removed the excess white space beneath the image*/
   max-width: 100%; /* max-width occupies the correct width within the container */
   border-radius: 8px;
-  cursor: pointer;
 }
 
 button{
@@ -62,8 +60,13 @@ font-weight: bold;
 }
 .title{
   font-size: 18px;
+ 
 }
 
+.title:active{
+  cursor: pointer;
+  color: var(--background-color);
+}
 .stats{
   color: var(--paragraph-greycolor);
   font-size: 15px;
@@ -99,6 +102,11 @@ font-weight: bold;
   img{
     width: 260px;
   }
+
+  .title:active{
+    cursor: pointer;
+    color: var(--background-color);
+  } 
   .stats{
     font-size: 13px;
   }
